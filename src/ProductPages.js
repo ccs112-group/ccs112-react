@@ -19,4 +19,8 @@ const ProductPages = ({ products, addToCart }) => {
   );
 };
 
+<<<<<<< HEAD
 export default ProductPages;
+=======
+export default ProductPages
+>>>>>>> ad8131fdee3bcf08933dd5a9dc3a5f5675bbecb5
