@@ -16,7 +16,7 @@ const products = [
   { id: 9, name: "Mouse", description: "Mouse is an input device used for navigating graphical user interfaces and interacting with on-screen elements.", price: 1000 },
   { id: 10, name: "Cooling System", description: "Cooling system keeps the components of a computer within safe temperature limits to prevent overheating and damage.", price: 3500 }
 
-  // Add more products here
+  // Add more products here das dsad
 ];
 
 function App() {
