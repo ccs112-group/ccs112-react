@@ -1,3 +1,4 @@
+// ProductPages.js
 import React from 'react';
 import Product from './Product';
 
@@ -17,3 +18,5 @@ const ProductPages = ({ products, addToCart }) => {
     </div>
   );
 };
+
+export default ProductPages;

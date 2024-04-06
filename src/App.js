@@ -1,7 +1,7 @@
 // App.js
 import React, { useState } from 'react';
 import ProductPages from './ProductPages';
-import AllCart from './Cart';
+import AllCart from './CartSummary';
 
 const products = [
   
