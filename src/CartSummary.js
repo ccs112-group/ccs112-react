@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // CartSummary.js
+=======
+>>>>>>> 0cccea65ae057d3d16467c00feb14d62c6a4e321
 import React from 'react';
 
 const CartSummary = ({ cart }) => {
@@ -17,5 +20,8 @@ const CartSummary = ({ cart }) => {
     </div>
   );
 };
+<<<<<<< HEAD
 
 export default CartSummary;
+=======
+>>>>>>> 0cccea65ae057d3d16467c00feb14d62c6a4e321
