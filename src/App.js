@@ -1,7 +1,7 @@
 // App.js
 import React, { useState } from 'react';
 import ProductPages from './ProductPages';
-import CartSummary from './CartSummary'; // Import the CartSummary component
+import AllCart from './Cart';
 
 const products = [
   { id: 1, name: "CPU", description: "Central processing unit (CPU) for processing computations and running programs.", price: 5000 },
@@ -31,7 +31,7 @@ function App() {
       <header className="App-header">
         <h1>Product Pages</h1>
         <ProductPages products={products} addToCart={addToCart} />
-        <CartSummary cart={cart} /> {/* Render the CartSummary component */}
+        <AllCart cart={cart} /> {}
       </header>
     </div>
   );
