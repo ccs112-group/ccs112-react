@@ -1,28 +1,20 @@
-// App.js
-import React, { useState } from 'react';
-import ProductList from './components/ProductList';
-import Cart from './components/Cart';
+// Cart.js
+import React from 'react';
 
-function App() {
-  const [cart, setCart] = useState([]);
-
-  const products = [
-    { id: 1, name: 'Product 1', description: 'Description 1', price: 10 },
-    // Add more products
-  ];
-
-  const addToCart = (product) => {
-    setCart([...cart, product]);
-  };
+function Cart({ cart }) {
+  const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
 
   return (
-    <div className="App">
-      <h1>Product List</h1>
-      <ProductList products={products} addToCart={addToCart} />
-      <h1>Cart Summary</h1>
-      <Cart cart={cart} />
+    <div>
+      {cart.map(item => (
+        <div key={item.id}>
+          <p>{item.name}</p>
+          <p>${item.price}</p>
+        </div>
+      ))}
+      <h3>Total Price: ${totalPrice}</h3>
     </div>
   );
 }
 
-export default App;
+export default Cart;
