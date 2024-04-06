@@ -1,9 +1,10 @@
 // App.js
 import React, { useState } from 'react';
 import ProductPages from './ProductPages';
-import CartSummary from './CartSummary'; // Import the CartSummary component
+import AllCart from './Cart';
 
 const products = [
+  
   { id: 1, name: "CPU", description: "Central processing unit (CPU) for processing computations and running programs.", price: 5000 },
   { id: 2, name: "GPU", description: "Graphics processing unit (GPU) for rendering graphics and accelerating tasks like gaming and video editing.", price: 10000 },
   { id: 3, name: "RAM", description: "Random-access memory (RAM) for temporary storage of data that the CPU needs to access quickly.", price: 3000 },
@@ -31,9 +32,8 @@ function App() {
       <header className="App-header">
         <h1>Product Pages</h1>
         <ProductPages products={products} addToCart={addToCart} />
-        <CartSummary cart={cart} /> {/* Render the CartSummary component */}
+        <AllCart cart={cart} /> {}
       </header>
-      <script>console.log("Hello World")</script>
     </div>
   );
 }
