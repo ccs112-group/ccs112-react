@@ -17,3 +17,5 @@ const ProductPages = ({ products, addToCart }) => {
     </div>
   );
 };
+
+export default ProductPages
