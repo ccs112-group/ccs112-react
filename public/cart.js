@@ -17,4 +17,4 @@ function Cart({ cart }) {
   );
 }
 
-export default Cart;
+export default Cart; 
