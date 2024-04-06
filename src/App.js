@@ -33,7 +33,6 @@ function App() {
         <ProductPages products={products} addToCart={addToCart} />
         <CartSummary cart={cart} /> {/* Render the CartSummary component */}
       </header>
-      <script>console.log("Hello World")</script>
     </div>
   );
 }
