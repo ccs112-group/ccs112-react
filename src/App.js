@@ -4,6 +4,7 @@ import ProductPages from './ProductPages';
 import AllCart from './Cart';
 
 const products = [
+  
   { id: 1, name: "CPU", description: "Central processing unit (CPU) for processing computations and running programs.", price: 5000 },
   { id: 2, name: "GPU", description: "Graphics processing unit (GPU) for rendering graphics and accelerating tasks like gaming and video editing.", price: 10000 },
   { id: 3, name: "RAM", description: "Random-access memory (RAM) for temporary storage of data that the CPU needs to access quickly.", price: 3000 },
